@@ -19,6 +19,5 @@ from new_learning.views import hello_geek
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # path('', include("projectApp.urls")),
     path('geek/', hello_geek),
 ]
